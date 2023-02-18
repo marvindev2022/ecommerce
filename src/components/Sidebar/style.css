@@ -1,0 +1,28 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 5vh;
+
+  margin-left: -180px;
+  background-color: lightcyan;
+}
+.sidebar:hover {
+ margin: 0;
+  width: 200px;
+  height: 80vh;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+nav,
+.container-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  flex-direction: column;
+}
